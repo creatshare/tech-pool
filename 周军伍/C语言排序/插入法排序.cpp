@@ -7,7 +7,7 @@
 void CrSort(int arr[], int n) 
 {
 	int i, j, temp;
-	for(i=1;i<n;i++){		//每次以一个数为基准， 将其前面的的基准数大的移到后面去
+	for(i=1;i<n;i++){		//每次以一个数为基准， 将其前面的比基准数大的移到后面去
 		temp=arr[i];
 		for(j=i; j>0 && arr[j-1]>temp; j--)	
 			arr[j]=arr[j-1];
