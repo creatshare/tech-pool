@@ -1,0 +1,2 @@
+	
+	线性表及其表示：http://blog.csdn.net/m0_37282062/article/details/71090984
