@@ -1,11 +1,12 @@
 #include<stdio.h>
 #include<malloc.h>
 typedef struct node
-	{
-		int data;
-		struct node	*next;
-		
-	}Node,*Linklist;
+{
+	int data;
+	struct node	*next;	
+}Node,*Linklist;
+
+
 Linklist CreatFromTail()
 {
 	Linklist L;
