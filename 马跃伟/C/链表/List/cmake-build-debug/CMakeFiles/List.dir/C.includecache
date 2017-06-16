@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/DELL-XPS/CLionProjects/List/list.c
+list.h
+C:/Users/DELL-XPS/CLionProjects/List/list.h
+
+C:/Users/DELL-XPS/CLionProjects/List/list.h
+stdio.h
+-
+stdlib.h
+-
+
+C:/Users/DELL-XPS/CLionProjects/List/main.c
+list.h
+C:/Users/DELL-XPS/CLionProjects/List/list.h
+
