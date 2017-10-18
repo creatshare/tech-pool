@@ -32,7 +32,7 @@ class wechat_php
             if(!empty( $keyword ))
             {
                 $msgType = "text";
-                $contentStr = "好的";
+                $contentStr = "";
                 $resultStr = sprintf($textTpl, $toUsername, $fromUsername, $time, $msgType, $contentStr);
                 echo $resultStr;
             }
