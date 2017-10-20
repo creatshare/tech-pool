@@ -1,0 +1,3 @@
+C:/Users/DELL-XPS/CLionProjects/List/cmake-build-debug/CMakeFiles/List.dir
+C:/Users/DELL-XPS/CLionProjects/List/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/DELL-XPS/CLionProjects/List/cmake-build-debug/CMakeFiles/rebuild_cache.dir
