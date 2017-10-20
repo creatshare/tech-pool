@@ -6,7 +6,6 @@ typedef struct node
 	struct node	*next;	
 }Node,*Linklist;
 
-
 Linklist CreatFromTail()
 {
 	Linklist L;
@@ -26,7 +25,7 @@ Linklist CreatFromTail()
 			s=(Node *)malloc(sizeof(Node));
 			s->data=x;
 			
-			p->next = s;	//Î²²å·¨ 
+			p->next = s;	//å°¾æ’æ³• 
 			p = s;
 		}
 		else
@@ -71,17 +70,17 @@ int main()
 {	
 	Linklist L;
 	
-	L=CreatFromTail();//´´½¨µ¥Á´±í
+	L=CreatFromTail();//åˆ›å»ºå•é“¾è¡¨
  	
-	Output(L);//´òÓ¡Êä³öµ¥Á´±í
+	Output(L);//æ‰“å°è¾“å‡ºå•é“¾è¡¨
 	
-    Reverse(L);//ÄæÖÃµ¥Á´±í
+    Reverse(L);//é€†ç½®å•é“¾è¡¨
     
-    Output(L); //´òÓ¡ÄæÖÃµÄÁ´±í 
+    Output(L); //æ‰“å°é€†ç½®çš„é“¾è¡¨ 
     
-	Reverse(L); //ÔÙ´ÎÄæÖÃ 
+	Reverse(L); //å†æ¬¡é€†ç½® 
 	
-	Output(L);	//´òÓ¡ÔÙ´ÎÄæÖÃÖ®ºóµÄÁ´±í 
+	Output(L);	//æ‰“å°å†æ¬¡é€†ç½®ä¹‹åçš„é“¾è¡¨ 
 
 	
 }
